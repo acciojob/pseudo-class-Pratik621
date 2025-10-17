@@ -5,17 +5,20 @@
 	flex-direction:row;
 	justify-content:center;
 	align-items:center;
+	gap:3px
     
    
 }
 #container::before{
 	color:#f00;
-	content:"Before Element";
-	font-size:20px
+	content:"Before Element ";
+	font-size:20px;
+	font-family:arial;
 }
 #container::after{
 	color:#f00;
-	content:"After Element";
-	font-size:20px
+	content:" After Element";
+	font-size:20px;
+	font-family:arial;
 	
 }
