@@ -3,10 +3,12 @@
 	margin:20px;
 }
 #container::before{
-	content:"Before Element  ";
 	color:rgb(255, 0, 0);
+	content:"Before Element  ";
+	
 }
 #container::after{
-	content:" After Element";
 	color:rgb(255, 0, 0);
+	content:" After Element";
+	
 }
